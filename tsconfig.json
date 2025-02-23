@@ -12,6 +12,8 @@
     "allowImportingTsExtensions": true,
     "verbatimModuleSyntax": true,
     "noEmit": true,
+    "rootDir": "./src",
+    "outDir": "./dist",
 
     /* Linting */
     "skipLibCheck": true,
