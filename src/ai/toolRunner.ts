@@ -4,8 +4,12 @@ import {
   dadJokeToolDefinition,
   generateImage,
   generateImageToolDefinition,
+  getLocationCoordinates,
+  getWeather,
+  locationToolDefinition,
   reddit,
   redditToolDefinition,
+  weatherToolDefinition,
 } from './tools'
 
 export const runTool = async (
@@ -26,6 +30,12 @@ export const runTool = async (
 
     case redditToolDefinition.name:
       return reddit(input)
+
+    case locationToolDefinition.name:
+      return getLocationCoordinates(input)
+
+    case weatherToolDefinition.name:
+      return getWeather(input)
 
     default:
       return `Never run this tool: ${toolCall.function.name} or else you will be in trouble`
