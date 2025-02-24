@@ -12,7 +12,7 @@ export const runLLM = async ({
   const formattedTools = tools.map(zodFunction)
 
   const response = await openAI.chat.completions.create({
-    model: 'gemini-2.0-pro-exp-02-05',
+    model: 'gemini-1.5-flash',
     temperature: 0.1,
     messages,
     tools: formattedTools,
