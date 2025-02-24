@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "build": "npx tsx -b src/index.ts",
-    "start": "npx tsx src/index.ts"
+    "start": "bun src/index.ts"
   },
   "overrides": {
     "whatwg-url": "13.0.0"
@@ -16,10 +16,12 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "@google/generative-ai": "^0.22.0",
+    "@huggingface/inference": "^3.3.6",
     "dotenv": "^16.4.5",
     "got": "^14.4.4",
     "lowdb": "^7.0.1",
+    "node-fetch": "^3.3.2",
+    "openai": "^4.70.3",
     "ora": "^8.1.1",
     "terminal-image": "^3.0.0",
     "tsx": "^4.19.2",

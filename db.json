@@ -1,0 +1,90 @@
+{
+  "messages": [
+    {
+      "id": "ad6b73f6-6555-4dff-a6d0-37f111d9f793",
+      "role": "user",
+      "content": "make an image of hatsune miku beatboxing live on stage like the most famous post in reddit and a poster of dad joke behind her",
+      "createdAt": "2025-02-24T19:51:37.140Z"
+    },
+    {
+      "id": "f0f96aea-cab7-49b3-84e4-5a4c29230a29",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "reddit"
+          },
+          "id": "",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{}",
+            "name": "dad_joke"
+          },
+          "id": "",
+          "type": "function"
+        }
+      ],
+      "createdAt": "2025-02-24T19:51:38.325Z"
+    },
+    {
+      "id": "496b0865-548d-4d46-b3a9-4cf889de5cc8",
+      "role": "tool",
+      "content": "[\n  {\n    \"title\": \"Official Beatbox Community YouTube\",\n    \"subreddit\": \"r/beatbox\",\n    \"author\": \"BeatboxTalk\",\n    \"upvotes\": 46\n  },\n  {\n    \"title\": \"Who do you think is the goat of beatboxing?\",\n    \"subreddit\": \"r/beatbox\",\n    \"author\": \"Temporary-World-9808\",\n    \"upvotes\": 5\n  },\n  {\n    \"title\": \"gbb25 seating / floorplan\",\n    \"subreddit\": \"r/beatbox\",\n    \"author\": \"kla54\",\n    \"upvotes\": 2\n  },\n  {\n    \"title\": \"Beginner\",\n    \"subreddit\": \"r/beatbox\",\n    \"author\": \"WesternSelection8006\",\n    \"upvotes\": 7\n  },\n  {\n    \"title\": \"What Beatbox battle do you show your non Beatbox friends first?\",\n    \"subreddit\": \"r/beatbox\",\n    \"author\": \"skankhunt4t7\",\n    \"upvotes\": 17\n  },\n  {\n    \"title\": \"Trying to learn throatbass but keep getting chestbass\",\n    \"subreddit\": \"r/beatbox\",\n    \"author\": \"TopIllustrator4966\",\n    \"upvotes\": 7\n  },\n  {\n    \"title\": \"Is this liproll?\",\n    \"subreddit\": \"r/beatbox\",\n    \"author\": \"patrikki555\",\n    \"upvotes\": 4\n  },\n  {\n    \"title\": \"Throat bass?\",\n    \"subreddit\": \"r/beatbox\",\n    \"author\": \"tugaestrangeira\",\n    \"upvotes\": 1\n  },\n  {\n    \"title\": \"Is this vibration bass?\",\n    \"subreddit\": \"r/beatbox\",\n    \"author\": \"Guilty_Cantaloupe770\",\n    \"upvotes\": 3\n  },\n  {\n    \"title\": \"Is this vibration bass?\",\n    \"subreddit\": \"r/beatbox\",\n    \"author\": \"Guilty_Cantaloupe770\",\n    \"upvotes\": 2\n  },\n  {\n    \"title\": \"GBB25 Producer Category\",\n    \"subreddit\": \"r/beatbox\",\n    \"author\": \"pOtAtO-sAC-360\",\n    \"upvotes\": 7\n  },\n  {\n    \"title\": \"I am 46 years old and have just discovered the awesomeness that is beatboxing. Please give me some recommendations on what to listen to!\",\n    \"subreddit\": \"r/beatbox\",\n    \"author\": \"Majestic_Jazz_Hands\",\n    \"upvotes\": 38\n  },\n  {\n    \"title\": \"Do you remember?\",\n    \"subreddit\": \"r/beatbox\",\n    \"author\": \"403_Linux\",\n    \"upvotes\": 6\n  },\n  {\n    \"title\": \"Female German Beatbox Circle\",\n    \"subreddit\": \"r/beatbox\",\n    \"author\": \"Prudent_Winter_4684\",\n    \"upvotes\": 6\n  },\n  {\n    \"title\": \"What are some easy but good whistle sounds to learn\",\n    \"subreddit\": \"r/beatbox\",\n    \"author\": \"SoulAlmighty_7\",\n    \"upvotes\": 4\n  },\n  {\n    \"title\": \"🐶\",\n    \"subreddit\": \"r/beatbox\",\n    \"author\": \"StereophonicWine\",\n    \"upvotes\": 4\n  },\n  {\n    \"title\": \"Going to perform first time on stage. Need some help\",\n    \"subreddit\": \"r/beatbox\",\n    \"author\": \"Tompsik\",\n    \"upvotes\": 6\n  },\n  {\n    \"title\": \"What do you think? Beatbox begginer\",\n    \"subreddit\": \"r/beatbox\",\n    \"author\": \"marewill\",\n    \"upvotes\": 9\n  },\n  {\n    \"title\": \"Looking for an NME - Car Radio Loopstation Tutorial\",\n    \"subreddit\": \"r/beatbox\",\n    \"author\": \"AllergicToChicken\",\n    \"upvotes\": 2\n  },\n  {\n    \"title\": \"Check out my wildcard\",\n    \"subreddit\": \"r/beatbox\",\n    \"author\": \"Financial_Force8052\",\n    \"upvotes\": 1\n  },\n  {\n    \"title\": \"Wing's Dopamine tutorial please\",\n    \"subreddit\": \"r/beatbox\",\n    \"author\": \"CrewWilling\",\n    \"upvotes\": 3\n  },\n  {\n    \"title\": \"Gossip Folks Beatsmix\",\n    \"subreddit\": \"r/beatbox\",\n    \"author\": \"beats4president\",\n    \"upvotes\": 1\n  },\n  {\n    \"title\": \"Free Wildcard Mixing/Mastering:\",\n    \"subreddit\": \"r/beatbox\",\n    \"author\": \"Marexyl\",\n    \"upvotes\": 2\n  },\n  {\n    \"title\": \"Loopstation rules how do they make the sounds?\",\n    \"subreddit\": \"r/beatbox\",\n    \"author\": \"Vektor801\",\n    \"upvotes\": 8\n  },\n  {\n    \"title\": \"I just edited the 3 hours of the mystery beatbox live event(d-low) so its watchable for everybody on youtube(alot shorter) with some fun edit\",\n    \"subreddit\": \"r/beatbox\",\n    \"author\": \"Lgbtwhopper\",\n    \"upvotes\": 8\n  },\n  {\n    \"title\": \"Please share your throat/vibration bass\",\n    \"subreddit\": \"r/beatbox\",\n    \"author\": \"Lesagesinging\",\n    \"upvotes\": 18\n  }\n]",
+      "tool_call_id": "",
+      "createdAt": "2025-02-24T19:51:39.621Z"
+    },
+    {
+      "id": "8864df8d-6a5e-4ef4-b319-10264780e8c4",
+      "content": "The most upvoted post is about the \"Official Beatbox Community YouTube\".\n\nFor the dad joke, I will use: Why don't scientists trust atoms? Because they make up everything!\n\n",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{\"prompt\":\"Hatsune Miku beatboxing on a stage, with a large crowd, bright lights, inspired by \\\"Official Beatbox Community YouTube\\\". In the background, there is a poster with the text: \\\"Why don't scientists trust atoms? Because they make up everything!\\\"\"}",
+            "name": "generate_image"
+          },
+          "id": "",
+          "type": "function"
+        }
+      ],
+      "createdAt": "2025-02-24T19:51:42.122Z"
+    },
+    {
+      "id": "edde9831-d772-4758-816b-a853f2a6ac61",
+      "role": "user",
+      "content": "give me the image",
+      "createdAt": "2025-02-24T19:52:11.297Z"
+    },
+    {
+      "id": "d86e44fa-5f13-4cb2-a13f-0117219f68a5",
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{\"prompt\":\"Hatsune Miku beatboxing on a stage, with a large crowd, bright lights, inspired by \\\"Official Beatbox Community YouTube\\\". In the background, there is a poster with the text: \\\"Why don't scientists trust atoms? Because they make up everything!\\\"\"}",
+            "name": "generate_image"
+          },
+          "id": "",
+          "type": "function"
+        }
+      ],
+      "createdAt": "2025-02-24T19:52:12.834Z"
+    },
+    {
+      "id": "22b8bb8a-ef63-42cf-9a63-afdd72115e2f",
+      "role": "tool",
+      "content": "https://pollinations.ai/p/Hatsune%20Miku%20beatboxing%20on%20a%20stage%2C%20with%20a%20large%20crowd%2C%20bright%20lights%2C%20inspired%20by%20%22Official%20Beatbox%20Community%20YouTube%22.%20In%20the%20background%2C%20there%20is%20a%20poster%20with%20the%20text%3A%20%22Why%20don't%20scientists%20trust%20atoms%3F%20Because%20they%20make%20up%20everything!%22?width=1024&height=1024&seed=8817&model=flux",
+      "tool_call_id": "",
+      "createdAt": "2025-02-24T19:52:27.760Z"
+    },
+    {
+      "id": "3e0d1d77-aa89-44e1-b306-f01ee35ecc89",
+      "content": "Here is the image of Hatsune Miku beatboxing on stage with the dad joke poster:\n\n[https://pollinations.ai/p/Hatsune%20Miku%20beatboxing%20on%20a%20stage%2C%20with%20a%20large%20crowd%2C%20bright%20lights%2C%20inspired%20by%20%22Official%20Beatbox%20Community%20YouTube%22.%20In%20the%20background%2C%20there%20is%20a%20poster%20with%20the%20text%3A%20%22Why%20don%27t%20scientists%20trust%20atoms%3F%20Because%20they%20make%20up%20everything!%22?width=1024&height=1024&seed=8817&model=flux](https://pollinations.ai/p/Hatsune%20Miku%20beatboxing%20on%20a%20stage%2C%20with%20a%20large%20crowd%2C%20bright%20lights%2C%20inspired%20by%20%22Official%20Beatbox%20Community%20YouTube%22.%20In%20the%20background%2C%20there%20is%20a%20poster%20with%20the%20text%3A%20%22Why%20don%27t%20scientists%20trust%20atoms%3F%20Because%20they%20make%20up%20everything!%22?width=1024&height=1024&seed=8817&model=flux)\n",
+      "role": "assistant",
+      "createdAt": "2025-02-24T19:52:31.764Z"
+    }
+  ]
+}

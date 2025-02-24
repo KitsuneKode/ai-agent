@@ -1,29 +1,24 @@
-import { genAI } from './ai.ts'
+import type { AIMessage } from '../types.ts'
+import { openAI } from './ai.ts'
+import { zodFunction } from 'openai/helpers/zod'
 
-export const runLLM = async ({ userMessage }: { userMessage: string }) => {
-  const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' })
+export const runLLM = async ({
+  messages,
+  tools,
+}: {
+  messages: AIMessage[]
+  tools: any[]
+}) => {
+  const formattedTools = tools.map(zodFunction)
 
-  //   const result = await model.generateContent({
-  //     contents: [{ role: 'user', parts: [{ text: userMessage }] }],
-  //     generationConfig: { temperature: 0.1, maxOutputTokens: 1000 },
-  //   })
-  //   console.log(result.response)
-  //   return result.response.text()
-
-  const chat = model.startChat({
-    history: [
-      {
-        role: 'user',
-        parts: [{ text: 'Hi, My name is Jacob' }],
-      },
-      {
-        role: 'model',
-        parts: [{ text: 'Hello, Great to meet you, Jacob' }],
-      },
-    ],
+  const response = await openAI.chat.completions.create({
+    model: 'gemini-2.0-pro-exp-02-05',
+    temperature: 0.1,
+    messages,
+    tools: formattedTools,
+    tool_choice: 'auto',
+    parallel_tool_calls: false,
   })
 
-  const result = await chat.sendMessage(userMessage)
-
-  return result.response.text()
+  return response.choices[0].message
 }
