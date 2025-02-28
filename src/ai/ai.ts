@@ -5,4 +5,4 @@ export const openAI = new OpenAI({
   baseURL: 'https://generativelanguage.googleapis.com/v1beta/openai/',
 })
 
-export const model = 'gemini-2.0-flash'
+export const model = 'gemini-1.5-pro'
