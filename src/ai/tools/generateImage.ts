@@ -1,4 +1,4 @@
-import { HfInference, textToImage } from '@huggingface/inference'
+import { textToImage } from '@huggingface/inference'
 import fs from 'fs'
 import { z } from 'zod'
 import type { ToolFn } from '../../types'
@@ -88,7 +88,7 @@ export const downloadImage = async (imageUrl: string) => {
     path.join(__dirname, `/images/${imageName}`),
     Buffer.from(imageBuffer),
     (err) => {
-      if (err) console.error(err.message)
+      if (err) console.error(err)
     }
   )
 }

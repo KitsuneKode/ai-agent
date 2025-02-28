@@ -4,7 +4,9 @@
   "type": "module",
   "scripts": {
     "build": "npx tsx -b src/index.ts",
-    "start": "bun src/index.ts"
+    "start": "bun src/index.ts",
+    "eval": "bun src/evals/run.ts $1",
+    "ingest": "npx tsc src/rag/ingest.ts"
   },
   "overrides": {
     "whatwg-url": "13.0.0"
@@ -26,6 +28,10 @@
     "terminal-image": "^3.0.0",
     "tsx": "^4.19.2",
     "uuid": "^11.0.2",
-    "zod": "^3.23.8"
+    "zod": "^3.23.8",
+    "@upstash/vector": "^1.1.7",
+    "autoevals": "^0.0.101",
+    "csv-parse": "^5.5.6",
+    "chalk": "^5.3.0"
   }
 }

@@ -10,7 +10,7 @@ export const weatherToolDefinition = {
     longitude: z.number().describe('Longitude of the location'),
   }),
   description:
-    'use this to get the weather details also describe whether it is sunny, rainy, cold, warm, etc. Explain or analyze the weather conditions in brief and also mention whether the weather is hot or cold.',
+    'use this to get the weather details also describe whether it is sunny, rainy, cold, warm, etc. Explain or analyze the weather conditions in brief and also mention whether the weather is hot or cold of a location.',
 }
 
 type Args = z.infer<typeof weatherToolDefinition.parameters>

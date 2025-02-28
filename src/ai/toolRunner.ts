@@ -10,6 +10,8 @@ import {
   reddit,
   redditToolDefinition,
   weatherToolDefinition,
+  movieSearch,
+  movieSearchToolDefinition,
 } from './tools'
 
 export const runTool = async (
@@ -36,6 +38,9 @@ export const runTool = async (
 
     case weatherToolDefinition.name:
       return getWeather(input)
+
+    case movieSearchToolDefinition.name:
+      return movieSearch(input)
 
     default:
       return `Never run this tool: ${toolCall.function.name} or else you will be in trouble`
