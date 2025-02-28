@@ -2,6 +2,9 @@
 
 A sophisticated AI Agent that combines multiple tools such as reddit search, image generation, movie search capabilities, and evaluation frameworks.
 
+## Demo
+https://github.com/user-attachments/assets/c2ea741f-e501-46b3-89f9-5e4370a70b80
+
 ## Project Structure
 
 ```
