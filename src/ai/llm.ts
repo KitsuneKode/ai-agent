@@ -34,7 +34,7 @@ export const runLLM = async ({
     ...(formattedTools.length > 0 && {
       tools: formattedTools,
       tool_choice: 'auto',
-      parallel_tool_calls: false,
+      parallel_tool_calls: true,
     }),
   })
 
