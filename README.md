@@ -5,7 +5,9 @@ A sophisticated AI Agent that combines multiple tools such as reddit search, ima
 ## Demo
 https://github.com/user-attachments/assets/c2ea741f-e501-46b3-89f9-5e4370a70b80
 
-## Project Structure
+## Generated Images and results 
+
+![Image](https://github.com/user-attachments/assets/f5ac759c-2f2c-480b-8879-3feaa8a760a9)
 
 ```
 ├── src/
